@@ -1,0 +1,11 @@
+name = "duality-synthesis-automation"
+main = "src/index.ts"
+compatibility_date = "2026-10-23"
+compatibility_flags = ["nodejs_compat"]
+
+[[workflows]]
+name = "synthesis-workflow"
+binding = "SYNTHESIS_WORKFLOW"
+class_name = "SynthesisWorkflow"
+
+# Add D1, KV, Email bindings as needed for production sales structure
